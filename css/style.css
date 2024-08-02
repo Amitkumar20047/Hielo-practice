@@ -1,0 +1,273 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #dfdfdf;
+}
+
+/*my-container starts*/
+
+.my-container{
+    padding: 0;
+}
+
+#my-navigation .navbar-toggle{
+    display: block;
+    border: none;
+    cursor: pointer;
+}
+#my-navigation .navbar-toggle:hover{
+    background: none;
+}
+
+#my-navigation .navbar-header{
+    float: none;
+}
+
+#my-navigation .icon-bar-left{
+    float: left;
+}
+
+#my-navigation .icon-bar-right{
+    float: right;
+    position: relative;
+    top: -3px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+#my-navigation .navbar-brand .gray{
+    color: #b5b4b4;
+    font-weight: 100;
+}
+#my-navigation .navbar-right{
+    float: left !important;
+}
+
+#my-navigation .icon-bar{
+    background-color: #fff;
+}
+
+#my-navigation .navbar-brand , #my-navigation ul li a{
+    color: #fff;
+}
+
+#my-navigation{
+    background: none;
+    border: none;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+
+#my-carousel .item{
+    background-image: url("../img/slide01.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+#my-carousel .item-2{
+    background-image: url("../img/slide02.jpg");
+}
+
+#my-carousel .item-3{
+    background-image: url("../img/slide03.jpg");
+}
+
+#my-carousel .item-4{
+    background-image: url("../img/slide04.jpg");
+}
+
+#my-carousel .item-5{
+    background-image: url("../img/slide05.jpg");
+}
+
+.banner-text{
+    width: 30%;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    color: #fff;
+    z-index: 20;
+    text-align: center;
+}
+
+.banner-text p{
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #dbdbdd;
+}
+
+.banner-text hr{
+    width: 55%;
+}
+
+.banner-text h1{
+    font-size: 120px;
+    font-weight: 300;
+}
+
+
+/*my-container ends*/
+
+
+/*two-section starts*/
+
+.two-section{
+    padding: 70px 0;
+    text-align: center;
+}
+
+.two-section .left , .two-section .right{
+    background-color: #fff;
+    width: 95%;
+}
+.two-section .right{
+    margin-left: 5%;
+}
+
+.two-section img{
+    width: 100%;
+}
+
+.two-section h6{
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: gray;
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+
+.two-section hr{
+    width: 40%;
+    margin: 0 auto;
+    height: 0.5px;
+    color: rgb(96, 94, 94);
+}
+
+.two-section h3{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 8px;
+}
+
+.two-section p{
+    text-align: left;
+    padding: 25px 30px;
+    font-size: 15px;
+    color: gray;
+}
+
+.two-section button{
+    width: 150px;
+    height: 40px;
+    background: none;
+    border: 1px solid gray;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.two-section button:hover{
+   background-color: rgb(209, 209, 209);
+   border-color: rgb(209, 209, 209);
+}
+
+/*two-section ends*/
+
+/*full-quote starts*/
+
+.full-quote{
+    width: 100%;
+    padding: 100px 0;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+}
+
+.full-quote p , .four-images-section p{
+    letter-spacing: 3px;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.full-quote hr , .four-images-section hr{
+    width: 40%;
+    margin-top: 10px;
+    border-color: gray;
+}
+
+.full-quote h3 , .four-images-section h3{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+/*full-quote ends*/
+
+/*four-image-section starts*/
+
+.four-images-section{
+    padding: 70px 0;
+    text-align: center;
+}
+
+.four-images-section .image-section{
+    margin-top: 50px;
+}
+
+
+.image-section img{
+    width: 95%;
+    float: left;
+    margin-bottom: 10%;
+    border: 10px solid #fff;
+}
+.image-section .left{
+    margin-left: 5%;
+}
+/*four-image-section ends*/
+
+.footer{
+    background-color: black;
+    padding: 50px 0;
+    text-align: center;
+    color: gray;
+}
+
+.footer .fa{
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width:992px){
+    .two-section .left , .two-section .right{
+        width: 100%;
+    }
+    .two-section .right{
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .image-section img{
+        width: 100%;
+    }
+    .image-section .left{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .my-collapse{
+        padding: 0 20px;
+        border-top: 1px solid #fff;
+    }
+    .banner-text p{
+        font-size: 10px;
+    }
+    
+    .banner-text h1{
+        font-size: 80px;
+    }
+}
